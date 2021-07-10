@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'bella_scriptregular';
+  src: url('/fonts/bella_script-webfont.eot');
+  src: url('/bella_script-webfont.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/bella_script-webfont.woff2') format('woff2'),
+    url('/fonts/bella_script-webfont.woff') format('woff'),
+    url('/fonts/bella_script-webfont.svg') format('svg');
+}
+/* reset */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  font-family: 'Quicksand', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}

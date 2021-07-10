@@ -1,0 +1,311 @@
+[
+  {
+    "hero_image": [
+      {
+        "_id": "60e1390428ecef0744193140",
+        "name": "slide2.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "slide2_7529f716b7",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 713,
+        "width": 844,
+        "height": 696,
+        "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372917/slide2_7529f716b7.png",
+        "provider_metadata": {
+          "public_id": "slide2_7529f716b7",
+          "resource_type": "image"
+        },
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_slide2.png",
+            "hash": "thumbnail_slide2_7529f716b7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 189,
+            "height": 156,
+            "size": 55.25,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372918/thumbnail_slide2_7529f716b7.png",
+            "provider_metadata": {
+              "public_id": "thumbnail_slide2_7529f716b7",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "name": "medium_slide2.png",
+            "hash": "medium_slide2_7529f716b7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 618,
+            "size": 749.99,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372921/medium_slide2_7529f716b7.png",
+            "provider_metadata": {
+              "public_id": "medium_slide2_7529f716b7",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "name": "small_slide2.png",
+            "hash": "small_slide2_7529f716b7",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 412,
+            "size": 339.19,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372931/small_slide2_7529f716b7.png",
+            "provider_metadata": {
+              "public_id": "small_slide2_7529f716b7",
+              "resource_type": "image"
+            }
+          }
+        },
+        "provider": "cloudinary",
+        "related": ["60e1391628ecef0744193143"],
+        "createdAt": "2021-07-04T04:28:52.064Z",
+        "updatedAt": "2021-07-04T04:29:10.897Z",
+        "__v": 0,
+        "id": "60e1390428ecef0744193140"
+      },
+      {
+        "_id": "60e1390428ecef0744193141",
+        "name": "slide1.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "slide1_06d2c2660a",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 962.56,
+        "width": 1790,
+        "height": 1133,
+        "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372913/slide1_06d2c2660a.png",
+        "provider_metadata": {
+          "public_id": "slide1_06d2c2660a",
+          "resource_type": "image"
+        },
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_slide1.png",
+            "hash": "thumbnail_slide1_06d2c2660a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 245,
+            "height": 155,
+            "size": 35.21,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372916/thumbnail_slide1_06d2c2660a.png",
+            "provider_metadata": {
+              "public_id": "thumbnail_slide1_06d2c2660a",
+              "resource_type": "image"
+            }
+          },
+          "large": {
+            "name": "large_slide1.png",
+            "hash": "large_slide1_06d2c2660a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 1000,
+            "height": 633,
+            "size": 460.48,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372927/large_slide1_06d2c2660a.png",
+            "provider_metadata": {
+              "public_id": "large_slide1_06d2c2660a",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "name": "medium_slide1.png",
+            "hash": "medium_slide1_06d2c2660a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 475,
+            "size": 266.96,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372929/medium_slide1_06d2c2660a.png",
+            "provider_metadata": {
+              "public_id": "medium_slide1_06d2c2660a",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "name": "small_slide1.png",
+            "hash": "small_slide1_06d2c2660a",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 316,
+            "size": 125.32,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372932/small_slide1_06d2c2660a.png",
+            "provider_metadata": {
+              "public_id": "small_slide1_06d2c2660a",
+              "resource_type": "image"
+            }
+          }
+        },
+        "provider": "cloudinary",
+        "related": ["60e1391628ecef0744193143"],
+        "createdAt": "2021-07-04T04:28:52.625Z",
+        "updatedAt": "2021-07-05T05:12:54.634Z",
+        "__v": 0,
+        "id": "60e1390428ecef0744193141"
+      },
+      {
+        "_id": "60e1390728ecef0744193142",
+        "name": "slide3.png",
+        "alternativeText": "",
+        "caption": "",
+        "hash": "slide3_c6bf781b9c",
+        "ext": ".png",
+        "mime": "image/png",
+        "size": 713,
+        "width": 844,
+        "height": 696,
+        "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372914/slide3_c6bf781b9c.png",
+        "provider_metadata": {
+          "public_id": "slide3_c6bf781b9c",
+          "resource_type": "image"
+        },
+        "formats": {
+          "thumbnail": {
+            "name": "thumbnail_slide3.png",
+            "hash": "thumbnail_slide3_c6bf781b9c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 189,
+            "height": 156,
+            "size": 55.25,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372915/thumbnail_slide3_c6bf781b9c.png",
+            "provider_metadata": {
+              "public_id": "thumbnail_slide3_c6bf781b9c",
+              "resource_type": "image"
+            }
+          },
+          "medium": {
+            "name": "medium_slide3.png",
+            "hash": "medium_slide3_c6bf781b9c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 750,
+            "height": 618,
+            "size": 749.99,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372931/medium_slide3_c6bf781b9c.png",
+            "provider_metadata": {
+              "public_id": "medium_slide3_c6bf781b9c",
+              "resource_type": "image"
+            }
+          },
+          "small": {
+            "name": "small_slide3.png",
+            "hash": "small_slide3_c6bf781b9c",
+            "ext": ".png",
+            "mime": "image/png",
+            "width": 500,
+            "height": 412,
+            "size": 339.19,
+            "path": null,
+            "url": "https://res.cloudinary.com/zapeture/image/upload/v1625372935/small_slide3_c6bf781b9c.png",
+            "provider_metadata": {
+              "public_id": "small_slide3_c6bf781b9c",
+              "resource_type": "image"
+            }
+          }
+        },
+        "provider": "cloudinary",
+        "related": ["60e1391628ecef0744193143"],
+        "createdAt": "2021-07-04T04:28:55.387Z",
+        "updatedAt": "2021-07-04T04:29:10.897Z",
+        "__v": 0,
+        "id": "60e1390728ecef0744193142"
+      }
+    ],
+    "_id": "60e1391628ecef0744193143",
+    "published_at": "2021-07-04T04:29:21.297Z",
+    "createdAt": "2021-07-04T04:29:10.631Z",
+    "updatedAt": "2021-07-09T11:22:46.662Z",
+    "__v": 0,
+    "cursive_slogan": "Cake Excellence",
+    "hero_text": "Sometimes the sweet taste of craftsmanship baked cake is all we need to rouse our spirits. Available in an array of unique tastes and natural flavours It really is the most worth it indulgance.",
+    "showcase_text": "Sometimes the sweet taste of craftsmanship baked cake is all we need to rouse our spirits. Available in an array of unique tastes and natural flavours It really is the most worth it indulgance.",
+    "showcase_image": {
+      "_id": "60e29443cf3a5b38d4a11b7c",
+      "name": "cake6.png",
+      "alternativeText": "",
+      "caption": "",
+      "hash": "cake6_df7e8b2ac1",
+      "ext": ".png",
+      "mime": "image/png",
+      "size": 777.62,
+      "width": 846,
+      "height": 675,
+      "url": "https://res.cloudinary.com/zapeture/image/upload/v1625461799/cake6_df7e8b2ac1.png",
+      "provider_metadata": {
+        "public_id": "cake6_df7e8b2ac1",
+        "resource_type": "image"
+      },
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_cake6.png",
+          "hash": "thumbnail_cake6_df7e8b2ac1",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 196,
+          "height": 156,
+          "size": 78.36,
+          "path": null,
+          "url": "https://res.cloudinary.com/zapeture/image/upload/v1625461802/thumbnail_cake6_df7e8b2ac1.png",
+          "provider_metadata": {
+            "public_id": "thumbnail_cake6_df7e8b2ac1",
+            "resource_type": "image"
+          }
+        },
+        "medium": {
+          "name": "medium_cake6.png",
+          "hash": "medium_cake6_df7e8b2ac1",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 750,
+          "height": 598,
+          "size": 995.28,
+          "path": null,
+          "url": "https://res.cloudinary.com/zapeture/image/upload/v1625461817/medium_cake6_df7e8b2ac1.png",
+          "provider_metadata": {
+            "public_id": "medium_cake6_df7e8b2ac1",
+            "resource_type": "image"
+          }
+        },
+        "small": {
+          "name": "small_cake6.png",
+          "hash": "small_cake6_df7e8b2ac1",
+          "ext": ".png",
+          "mime": "image/png",
+          "width": 500,
+          "height": 399,
+          "size": 462.97,
+          "path": null,
+          "url": "https://res.cloudinary.com/zapeture/image/upload/v1625461824/small_cake6_df7e8b2ac1.png",
+          "provider_metadata": {
+            "public_id": "small_cake6_df7e8b2ac1",
+            "resource_type": "image"
+          }
+        }
+      },
+      "provider": "cloudinary",
+      "related": ["60e1391628ecef0744193143"],
+      "createdAt": "2021-07-05T05:10:27.222Z",
+      "updatedAt": "2021-07-09T10:55:51.220Z",
+      "__v": 0,
+      "id": "60e29443cf3a5b38d4a11b7c"
+    },
+    "showcase_tag": "Superb Cakes All the time freshness",
+    "id": "60e1391628ecef0744193143"
+  }
+]

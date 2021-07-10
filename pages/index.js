@@ -158,7 +158,7 @@ const HomePage = styled.div`
   }
 `;
 
-export async function getStaticProps() {
+export async function getServerSideProps() {
   const heroes_res = await fetch(`${API_URL}/heroes/`);
 
   const heroes = await heroes_res.json();

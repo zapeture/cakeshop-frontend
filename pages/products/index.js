@@ -147,7 +147,7 @@ const ProductsStyles = styled.div`
   }
 `;
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context) {
   //fetch the products
   const product_res = await fetch(`${API_URL}/products/`);
 
@@ -156,7 +156,6 @@ export async function getServerSideProps() {
   return {
     props: {
       products: products,
-      revalidate: 5,
     },
   };
 }

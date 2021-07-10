@@ -1,8 +1,7 @@
 import Head from 'next/head';
 import styled from 'styled-components';
 import { API_URL } from '../utils/urls';
-// import heroes from '../heros.json';
-import ImageSlider from './ImageSlider';
+import ImageSlider from '../components/ImageSlider';
 import Showcase from './showcase';
 import { useRouter } from 'next/router';
 

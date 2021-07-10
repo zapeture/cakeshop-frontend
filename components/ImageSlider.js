@@ -64,7 +64,7 @@ const ImageSlider = ({
     }, autoPlayTime);
 
     return () => clearTimeout(timer);
-  }, [currentSlide]);
+  }, [currentSlide, autoPlayTime]);
   return (
     <Wrapper {...props}>
       {images[0].map((image, index) => (

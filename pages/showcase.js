@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/dist/next-server/lib/head';
 import styled from 'styled-components';
 import Image from 'next/dist/client/image';
+import { API_URL } from '../utils/urls';
 const Showcase = ({ heroes }) => {
   return (
     <>
@@ -11,24 +12,25 @@ const Showcase = ({ heroes }) => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      {heroes.map((hero, index) => (
-        <ShowcaseStyles id='showcase' key={index}>
-          <h1 className='showcase-title'>Elegant Taste</h1>
-          <div className='showcase-content'>
-            <div className='image-side'>
-              <Image
-                src={hero.showcase_image.url}
-                alt={hero.showcase_image.name}
-                width={500}
-                height={500}
-              />
+      {heroes &&
+        heroes.map((hero, index) => (
+          <ShowcaseStyles id='showcase' key={index}>
+            <h1 className='showcase-title'>Elegant Taste</h1>
+            <div className='showcase-content'>
+              <div className='image-side'>
+                <Image
+                  src={hero.showcase_image.url}
+                  alt={hero.showcase_image.name}
+                  width={500}
+                  height={500}
+                />
+              </div>
+              <div className='statement-side'>
+                <p>{hero.showcase_text}</p>
+              </div>
             </div>
-            <div className='statement-side'>
-              <p>{hero.showcase_text}</p>
-            </div>
-          </div>
-        </ShowcaseStyles>
-      ))}
+          </ShowcaseStyles>
+        ))}
     </>
   );
 };
@@ -84,4 +86,5 @@ const ShowcaseStyles = styled.div`
     }
   }
 `;
+
 export default Showcase;

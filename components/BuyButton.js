@@ -15,7 +15,7 @@ export default function BuyButton({ product }) {
   const handleBuy = async (e) => {
     const stripe = await stripePromise;
     const token = await getToken();
-    console.log('handleBuy token', token);
+    // console.log('handleBuy token', token);
     e.preventDefault();
     const res = await fetch(`${API_URL}/orders/`, {
       method: 'POST',
@@ -26,7 +26,7 @@ export default function BuyButton({ product }) {
       },
     });
     const session = await res.json();
-    console.log('session', session);
+    // console.log('session', session);
 
     const result = await stripe.redirectToCheckout({
       sessionId: session.id,

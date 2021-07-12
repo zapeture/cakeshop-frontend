@@ -13,7 +13,7 @@ const useOrder = (session_id) => {
 
   const { getToken, user } = useContext(AuthContext);
 
-  console.log(session_id);
+  // console.log(session_id);
 
   useEffect(() => {
     if (user && session_id && session_id !== undefined) {

@@ -20,7 +20,7 @@ export const AuthProvider = (props) => {
       const token = await magic.user.getIdToken();
       return token;
     } catch (err) {
-      console.log(err);
+      // console.log(err);
     }
   };
 

@@ -47,7 +47,7 @@ const ChildrenWrapper = styled.div`
 const ImageSlider = ({
   images = [],
   autoPlay = true,
-  autoPlayTime = 3000,
+  autoPlayTime = 4000,
   children,
   ...props
 }) => {
@@ -64,19 +64,22 @@ const ImageSlider = ({
     }, autoPlayTime);
 
     return () => clearTimeout(timer);
-  }, [currentSlide, autoPlayTime]);
+  }, [currentSlide]);
+
   return (
-    <Wrapper {...props}>
-      {images[0].map((image, index) => (
-        <Slide
-          key={index}
-          style={{
-            backgroundImage: `url(${image.url})`,
-            marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
-          }}></Slide>
-      ))}
-      <ChildrenWrapper>{children}</ChildrenWrapper>
-    </Wrapper>
+    <>
+      <Wrapper {...props}>
+        {images.map((image, index) => (
+          <Slide
+            key={index}
+            style={{
+              backgroundImage: `url(${image})`,
+              marginLeft: index === 0 ? `-${currentSlide * 100}%` : undefined,
+            }}></Slide>
+        ))}
+        <ChildrenWrapper>{children}</ChildrenWrapper>
+      </Wrapper>
+    </>
   );
 };
 

@@ -8,6 +8,8 @@ import { useRouter } from 'next/router';
 const Home = ({ heroes }) => {
   const data = heroes.map((pic) => pic.hero_image);
 
+  const reductImages = data[0].map((item) => item.url);
+
   const router = useRouter();
 
   const goToProducts = (e) => {
@@ -36,7 +38,7 @@ const Home = ({ heroes }) => {
               </div>
             </div>
             <div className='image-side'>
-              <ImageSlider images={data}>
+              <ImageSlider images={[...reductImages]}>
                 <p>Great tasting cakes</p>
                 <small>{hero.slideshow_tag}</small>
               </ImageSlider>
@@ -158,7 +160,7 @@ const HomePage = styled.div`
   }
 `;
 
-export async function getServerSideProps() {
+export async function getServerSideProps(contex) {
   const heroes_res = await fetch(`${API_URL}/heroes/`);
 
   const heroes = await heroes_res.json();
